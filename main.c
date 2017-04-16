@@ -42,9 +42,8 @@ void world_init(/* Recibo un mundo */)
 void world_print(bool w[W_SIZE_X][W_SIZE_Y])
 {
 	for (int i = 0; i < W_SIZE_X; i++) {
-		for (int j = 0; j < W_SIZE_Y; j++) {
+		for (int j = 0; j < W_SIZE_Y; j++)
 			printf("%s", w[i][j] ? " #" : " .");
-		}
 		printf("\n");
 	}
 	printf("\n");
